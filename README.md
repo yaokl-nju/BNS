@@ -29,10 +29,12 @@ Before running with ogbn-papers100M, please run the 'preprocess.py' first.
 2. Some codes may be merged from other works, but I did not record where they are from (really sorry about this). Please feel free to tell me the sources of some parts in our implementation, and I will cite them in the implementation.
 
 ## Citation
+`
 @inproceedings{DBLP:conf/ijcai/YaoL21,
 &emsp; author    = {Kai-Lang Yao and Wu-Jun Li},
 &emsp; title     = {Blocking-based Neighbor Sampling for Large-scale Graph Neural Networks},
 &emsp; booktitle = {International Joint Conference on Artificial Intelligence},
 &emsp; year      = {2021},
 }
+`
 
