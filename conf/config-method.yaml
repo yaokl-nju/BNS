@@ -34,6 +34,7 @@ GraphSAINT:
   ogbn-products:
     walk_length: 50
     linproj: true
+    bsize: 4096
   ogbn-proteins:
     walk_length: 0
   ogbn-papers100M:
