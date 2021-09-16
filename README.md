@@ -20,7 +20,7 @@ All configurations are placed in 'conf'. If you want to add configurations of di
 python main_ogb_fast.py
 `
 
-Before running with ogbn-papers100M, please run the 'preprocess.py' first.
+Before running with ogbn-papers100M, please run the 'preprocess.py' first. If you have any questions, please open an issue, I will reply as soon as possible.
 
 ## Notes
 1. We optimize the implementations of BNS and improve the results of BNS, so there are slight differences from the original version in the our published paper. We recommend you to cite results achieved by this improved version.
