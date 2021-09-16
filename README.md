@@ -31,10 +31,10 @@ Before running with ogbn-papers100M, please run the 'preprocess.py' first.
 ## Citation
 `
 @inproceedings{DBLP:conf/ijcai/YaoL21,  
-&emsp; author    = {Kai-Lang Yao and Wu-Jun Li},  
-&emsp; title     = {Blocking-based Neighbor Sampling for Large-scale Graph Neural Networks},  
-&emsp; booktitle = {International Joint Conference on Artificial Intelligence},  
-&emsp; year      = {2021},  
+&emsp; author    = {Kai-Lang Yao and Wu-Jun Li},  \n
+&emsp; title     = {Blocking-based Neighbor Sampling for Large-scale Graph Neural Networks},  \n
+&emsp; booktitle = {International Joint Conference on Artificial Intelligence},  \n
+&emsp; year      = {2021},  \n
 }
 `
 
