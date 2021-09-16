@@ -59,8 +59,8 @@ class ogbn_dataset(PygNodePropPredDataset):
     '''
     must overload the funcs 'download' and 'process'
     '''
-    def download(self):
-        pass
+    # def download(self):
+    #     pass
 
     @property
     def num_classes(self):
