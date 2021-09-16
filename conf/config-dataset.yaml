@@ -1,0 +1,35 @@
+ogbn-products:
+  epochs: 200
+  early_stopping: 100
+  lamda: 0.000005
+  layer_num: 5
+  bn: true
+  eval_step: 5
+  lrscheduler: true
+#  drop: 0.1
+#  linproj: false
+#  concat: false
+
+ogbn-proteins:
+  epochs: 1000
+  early_stopping: 200
+  lamda: 0.0
+  layer_num: 5
+  bn: true
+  eval_step: 20
+  lrscheduler: true
+#  drop: 0.0
+#  linproj: false
+#  concat: false
+
+ogbn-papers100M:
+  epochs: 200
+  early_stopping: 100
+  lamda: 0.0000001
+  layer_num: 3
+  bn: true
+  eval_step: 5
+  lrscheduler: true
+#  drop: 0.1  # default
+#  linproj: true
+#  concat: false

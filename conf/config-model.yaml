@@ -1,0 +1,66 @@
+SAGE-GCN:
+  ogbn-products:
+    drop: 0.1
+    linproj: false
+    concat: false
+
+  ogbn-proteins:
+    drop: 0.0
+    linproj: false
+    concat: false
+
+  ogbn-papers100M:
+    drop: 0.1  # default
+    linproj: true
+    concat: false
+
+SAGE:
+  ogbn-products:
+    drop: 0.1
+    linproj: false
+    concat: false
+
+  ogbn-proteins:
+    drop: 0.0
+    linproj: false
+    concat: false
+
+  ogbn-papers100M:
+    drop: 0.1  # default
+    linproj: true
+    concat: false
+
+GAT:
+  ogbn-products:
+    drop: 0.3
+    linproj: true
+    concat: true
+    n_heads: 4
+
+  ogbn-proteins:
+    drop: 0.2
+    linproj: false
+    concat: true
+    n_heads: 4
+
+  ogbn-papers100M:
+    drop: 0.1  # default
+    linproj: true
+    concat: false
+    n_heads: 4
+
+PNA:
+  ogbn-products:
+    drop: 0.1
+    linproj: true
+    concat: false
+
+  ogbn-proteins:
+    drop: 0.0
+    linproj: false
+    concat: false
+
+  ogbn-papers100M:
+    drop: 0.1  # default
+    linproj: true
+    concat: false

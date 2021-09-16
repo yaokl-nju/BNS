@@ -1,0 +1,40 @@
+# s_n_1: the number of neighbors sampled for the last layer
+BNS:
+  ogbn-products:
+    s_n_1: 5
+    s_n: 2
+    rho: 1
+    model: SAGE-GCN
+  ogbn-proteins:
+    s_n_1: 10
+    s_n: 3
+    rho: 2
+  ogbn-papers100M:
+    s_n_1: 10
+    s_n: 2
+    rho: 1
+
+NS:
+  ogbn-products:
+    s_n: 5
+  ogbn-proteins:
+    s_n: 9
+  ogbn-papers100M:
+    s_n: 7  # default 5
+
+LADIES:
+  ogbn-products:
+    k: 7
+  ogbn-proteins:
+    k: 1.0
+  ogbn-papers100M:
+    k: 3
+
+GraphSAINT:
+  ogbn-products:
+    walk_length: 50
+    linproj: true
+  ogbn-proteins:
+    walk_length: 0
+  ogbn-papers100M:
+    walk_length: 20

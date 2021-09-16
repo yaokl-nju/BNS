@@ -1,0 +1,17 @@
+dataset: ogbn-products
+#dataset: ogbn-proteins
+#dataset: ogbn-papers100M
+
+gpu_id: 3
+model: SAGE
+method: GraphSAINT
+lr: 0.01
+hidden_dim: 128
+optimizer: 'adam'
+lrschedular: 'Cosine'
+root: '/data/ssd/yaokl/ogbn'
+repeat: 10
+fast_version: true      # if you want to record the wall-lock, disable it.
+is_gen_curves: false
+bsize: 16384
+save: false
