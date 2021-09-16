@@ -1,0 +1,4 @@
+batch = {'train':[], 'test':[], 'valid':[]}
+
+
+
