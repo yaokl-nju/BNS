@@ -54,13 +54,19 @@ PNA:
     drop: 0.1
     linproj: true
     concat: false
+    aggregators: [ 'mean' ]
+    scalers: [ 'identity', 'amplification' ]
 
   ogbn-proteins:
     drop: 0.0
     linproj: false
     concat: false
+    aggregators: ['mean']
+    scalers: ['identity', 'amplification']
 
   ogbn-papers100M:
     drop: 0.1  # default
     linproj: true
     concat: false
+    aggregators: [ 'mean' ]
+    scalers: [ 'identity', 'amplification' ]
