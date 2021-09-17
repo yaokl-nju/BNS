@@ -139,12 +139,12 @@ class Trainer_ogb(torch.nn.Module):
 
     @torch.no_grad()
     def evaluate_test(self, dataset):
-        # if self.args.method == 'GraphSAINT':
-        #     if self.args.dataset != 'ogbn-papers100M':
-        #         batch = 10
-        #         bsize = int(dataset.num_nodes * 1.0 / batch)
-        #         return self.evaluate_full(dataset, bsize)
-        #     else:
-        #         return self.evaluation(dataset, 'test')
-        # else:
-        return self.evaluation(dataset, 'test')
+        if self.args.method == 'GraphSAINT':
+            if self.args.dataset != 'ogbn-papers100M':
+                batch = 10
+                bsize = int(dataset.num_nodes * 1.0 / batch)
+                return self.evaluate_full(dataset, bsize)
+            else:
+                return self.evaluation(dataset, 'test')
+        else:
+            return self.evaluation(dataset, 'test')
