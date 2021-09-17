@@ -6,9 +6,6 @@ ogbn-products:
   bn: true
   eval_step: 5
   lrscheduler: true
-#  drop: 0.1
-#  linproj: false
-#  concat: false
 
 ogbn-proteins:
   epochs: 1000
@@ -18,9 +15,6 @@ ogbn-proteins:
   bn: true
   eval_step: 20
   lrscheduler: true
-#  drop: 0.0
-#  linproj: false
-#  concat: false
 
 ogbn-papers100M:
   epochs: 200
@@ -30,6 +24,3 @@ ogbn-papers100M:
   bn: true
   eval_step: 5
   lrscheduler: true
-#  drop: 0.1  # default
-#  linproj: true
-#  concat: false
