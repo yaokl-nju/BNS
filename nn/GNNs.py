@@ -72,7 +72,7 @@ class GNN(torch.nn.Module):
     def reset_parameters(self):
         glorot(self.proj.weight)
         if self.proj.bias is not None:
-            zeros(self.proj.weight)
+            zeros(self.proj.bias)
 
     def forward(self, feat, graph):
         kwargs = {'avg_deg': self.avg_deg} if self.args.model == 'PNA' else {}
