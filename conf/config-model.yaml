@@ -16,7 +16,7 @@ SAGE-GCN:
 
 SAGE:
   ogbn-products:
-    drop: 0.1
+    drop: 0.2
     linproj: false
     concat: false
 
@@ -32,7 +32,7 @@ SAGE:
 
 GAT:
   ogbn-products:
-    drop: 0.3
+    drop: 0.35
     linproj: true
     concat: true
     n_heads: 4
